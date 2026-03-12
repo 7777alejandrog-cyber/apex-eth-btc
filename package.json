@@ -1,0 +1,16 @@
+{
+    "name": "apex-eth-btc",
+    "version": "1.0.0",
+    "description": "APEX ETH/BTC Trading Agent — Base Network — Graystone Method",
+    "main": "apex-eth-btc.ts",
+    "scripts": {
+          "start": "tsx apex-eth-btc.ts",
+          "dev": "tsx watch apex-eth-btc.ts"
+    },
+    "dependencies": {
+          "viem": "^2.21.0",
+          "ai": "^4.0.0",
+          "@openrouter/ai-sdk-provider": "^0.0.5",
+          "tsx": "^4.19.0"
+    }
+}
