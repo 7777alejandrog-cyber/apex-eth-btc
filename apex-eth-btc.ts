@@ -1,5 +1,5 @@
-/**
- * APEX ETH/BTC Execution Agent — Base Network
+/**import { generateText } from "ai";
+import { createOpenRouter } from "@openrouter/ai-sdk-provider"; * APEX ETH/BTC Execution Agent — Base Network
  * Graystone Confluence Method — HIGH CONVICTION ONLY
  *
  * Assets: ETH (native) and cbBTC (Coinbase wrapped BTC on Base)
