@@ -21,6 +21,8 @@ const CONFIG = {
   MIN_VOLUME_BTC:  50_000_000,
   POSITION_PCT:    0.8,
   ANTHROPIC_KEY:   process.env.ANTHROPIC_API_KEY || "",
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || "",
+    TELEGRAM_CHAT_ID:   process.env.TELEGRAM_CHAT_ID   || "",
 };
 
 const publicClient = createPublicClient({
